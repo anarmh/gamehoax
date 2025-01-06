@@ -59,6 +59,18 @@
   #topbar-outer .login-register .icons .signIn {
     padding-right: 10px;
   }
+  #site-header-main .col-md-6 {
+    display: none !important;
+  }
+  #site-header-main .header-left a img {
+    width: 100px !important;
+  }
+  #site-header-main .header-left .menu button.btn {
+    padding: 0 7px 0 0;
+  }
+  #site-header-main .header-left .menu button.btn i.fa-bars {
+    font-size: 20px !important;
+  }
 }
 @media (max-width: 991.98px) {
   #topbar-outer .header-contact .widget-title {
@@ -105,6 +117,12 @@
   }
   #site-header-main .header-left .menu {
     display: block !important;
+  }
+  #site-header-main .header-left .menu button.btn {
+    padding: 0 7px 0 0;
+  }
+  #site-header-main .header-left .menu button.btn i.fa-bars {
+    font-size: 25px;
   }
   #site-header-main .header-left .menu .btn {
     border: none !important;
@@ -295,7 +313,6 @@
 #topbar-outer .header-contact {
   position: relative;
   z-index: 3;
-  width: 70%;
 }
 #topbar-outer .header-contact .widget-title {
   color: #a6a6a6;
@@ -325,12 +342,13 @@
 }
 #topbar-outer .header-contact ul li .number-box {
   padding: 5px;
-}
-#topbar-outer .header-contact ul li .number-box .number {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #topbar-outer .header-contact ul li i {
   font-size: 12px;
+  padding-right: 5px;
 }
 #topbar-outer .header-contact ul li .fa-whatsapp {
   color: #1c8d42;
@@ -342,9 +360,16 @@
   float: right;
   padding: 10px 0;
 }
+#topbar-outer .login-register .icons {
+  display: flex;
+  align-items: center;
+}
 #topbar-outer .login-register .icons a {
   color: #a6a6a6;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #topbar-outer .login-register .icons a:hover {
   color: #ffba00;

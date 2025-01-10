@@ -2922,8 +2922,10 @@ body{
         margin: 20px 0;
         width: 100%;
         .tab-list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
             padding: 0;
-            display: inline-block;
             float: none;
             width: auto;
             padding-bottom: 0px;

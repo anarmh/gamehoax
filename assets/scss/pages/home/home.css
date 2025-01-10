@@ -3291,8 +3291,10 @@ body {
   width: 100%;
 }
 #our-products .tab-menu .tab-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0;
-  display: inline-block;
   float: none;
   width: auto;
   padding-bottom: 0px;
